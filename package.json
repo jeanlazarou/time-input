@@ -10,7 +10,7 @@
     "compile": "NODE_ENV=production babel -d dist/ src/",
     "prepublish": "npm run compile"
   },
-  "author": "Alan Clarke <hi@alz.so> (alz.so)",
+  "author": "Alan Clarke <code@alz.io> (alz.io)",
   "contributors": [
     "Matt Livingston <matt.l.livingston@gmail.com>"
   ],
