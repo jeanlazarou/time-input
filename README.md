@@ -41,7 +41,3 @@ render()
 ```
 npm test
 ```
-
-## demo
-
-[link](https://time-input-tmvbhmidxv.now.sh/)

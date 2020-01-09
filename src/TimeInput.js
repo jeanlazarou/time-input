@@ -22,7 +22,8 @@ var TimeInput = CreateReactClass({
   propTypes: {
     className: PropTypes.string,
     value: PropTypes.string,
-    onChange: PropTypes.func
+    onChange: PropTypes.func,
+    onBlur: PropTypes.func
   },
   render () {
     var className = 'TimeInput'
@@ -59,6 +60,7 @@ var TimeInput = CreateReactClass({
   },
   handleBlur () {
     if (this.mounted) this.setState({ caretIndex: null })
+    if (this.props.onBlur) this.props.onBlur();
   },
   handleEscape () {
     if (this.mounted) this.input.blur()
