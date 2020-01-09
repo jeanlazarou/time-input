@@ -1,5 +1,5 @@
 {
-  "name": "time-input",
+  "name": "jl-time-input",
   "version": "1.6.1",
   "description": "A keyboard friendly react component for capturing time",
   "main": "./dist/TimeInput",
@@ -39,11 +39,11 @@
     "karma-spec-reporter": "0.0.26",
     "karma-webpack": "^1.7.0",
     "mocha": "^2.4.5",
-    "prop-types": "^15.5.10",
+    "prop-types": "^15.7.2",
     "raw-loader": "^0.5.1",
-    "react": "^15.5.4",
+    "react": "^16.12.0",
     "react-addons-test-utils": "^15.5.1",
-    "react-dom": "^15.6.1",
+    "react-dom": "^16.12.0",
     "react-test-utils": "0.0.1",
     "source-map-loader": "^0.1.5",
     "standard": "^6.0.7",
@@ -74,10 +74,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alanclarke/time-input.git"
+    "url": "git+https://github.com/jeanlazarou/time-input"
   },
   "bugs": {
-    "url": "https://github.com/alanclarke/time-input/issues"
+    "url": "https://github.com/jeanlazarou/time-input/issues"
   },
-  "homepage": "https://github.com/alanclarke/time-input#readme"
+  "homepage": "https://github.com/jeanlazarou/time-input#readme"
 }
